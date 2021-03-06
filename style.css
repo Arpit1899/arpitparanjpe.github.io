@@ -1,0 +1,21 @@
+body {
+ background-color: #BBDEFB;
+
+
+}
+h1 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  animation-name: flow;
+  animation-duration: 5s;
+
+
+}
+
+@keyframes flow {
+
+    from {color: rgba(0, 204, 255, 0.452);}
+    to {color: rgba(111, 0, 255, 0.336);}
+  
+}
