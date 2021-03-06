@@ -1,21 +1,48 @@
 body {
- background-color: #BBDEFB;
-
-
+  background-color: #bbdefb;
 }
+
 h1 {
   color: black;
-  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   animation-name: flow;
   animation-duration: 5s;
-
-
 }
 
-@keyframes flow {
+/* @keyframes flow {
+  from {
+    color: rgba(0, 204, 255, 0.452);
+  }
+  to {
+    color: rgba(111, 0, 255, 0.336);
+  }
+} */
 
-    from {color: rgba(0, 204, 255, 0.452);}
-    to {color: rgba(111, 0, 255, 0.336);}
-  
+.anuva {
+  float: left;
+  margin-left: 30%;
+}
+
+.link {
+  justify-content: space-between;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.image {
+  padding: 2rem;
+
+  border-radius: 30px;
+}
+@media screen and (max-width: 600px) {
+  .anuva {
+    margin-left: 20px;
+    background-color: none;
+  }
+  .link {
+    padding: 0.5rem;
+    margin-left: auto;
+  }
 }
