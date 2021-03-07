@@ -1,14 +1,140 @@
 body {
-  background-color: #bbdefb;
+  position: relative;
+  width: 1440px;
+  height: 900px;
+
+  background: #fbbb5c;
 }
 
-h1 {
-  color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.box1 {
+  position: absolute;
+  width: 1158px;
+  height: 672px;
+  left: 156px;
+  top: 153px;
+
+  background: #036189;
+  border-radius: 30px;
+}
+
+.image {
+  position: absolute;
+  /* width: 360.13px; */
+  height: 545px;
+  left: 120px;
+  top: 63px;
+
+  border-radius: 30px;
+}
+
+.box2 {
+  position: absolute;
+  width: 418px;
+  height: 545px;
+  left: 652px;
+  top: 63px;
+
+  background: #fbbb5c;
+  border-radius: 30px;
+}
+
+.Intro {
+  position: absolute;
+  width: 312px;
+  height: 57px;
+  left: 50px;
+  top: 3px;
+
+  font-family: Single Day;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
   text-align: center;
-  animation-name: flow;
-  animation-duration: 5s;
+
+  color: #036189;
+}
+
+.github {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 30px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+}
+
+.linkedin {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 138px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+}
+
+.resume {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 238px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+}
+
+.twitter {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 338px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+}
+/* .fab {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 30px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+} */
+
+/* .fab fa-linkedin {
+  position: absolute;
+  width: 100px;
+  height: 1000px;
+  left: 50px;
+  top: 453px;
+  font-size: 50px;
+  color: #036189;
+  text-decoration: none;
+} */
+
+h1 {
+  position: absolute;
+  width: 312px;
+  height: 57px;
+  left: 547px;
+  top: 36px;
+
+  font-family: Single Day;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #036189;
 }
 
 /* @keyframes flow {
@@ -20,7 +146,7 @@ h1 {
   }
 } */
 
-.anuva {
+/* .anuva {
   float: left;
   margin-left: 30%;
 }
@@ -44,4 +170,4 @@ h1 {
     padding: 0.5rem;
     margin-left: auto;
   }
-}
+} */
