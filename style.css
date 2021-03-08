@@ -1,9 +1,19 @@
 body {
   position: relative;
   width: 1440px;
-  height: 900px;
+  height: 400px;
 
   background: #fbbb5c;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+
+    background: #fbbb5c;
+  }
 }
 
 .box1 {
@@ -17,6 +27,19 @@ body {
   border-radius: 30px;
 }
 
+@media only screen and (max-width: 400px) {
+  .box1 {
+    position: absolute;
+    width: 340px;
+    height: 687px;
+    left: 12px;
+    top: 83px;
+
+    background: #036189;
+    border-radius: 30px;
+  }
+}
+
 .image {
   position: absolute;
   /* width: 360.13px; */
@@ -25,6 +48,17 @@ body {
   top: 63px;
 
   border-radius: 30px;
+}
+@media only screen and (max-width: 400px) {
+  .image {
+    position: absolute;
+    width: 225px;
+    height: 286px;
+    left: 58px;
+    top: 197px;
+
+    border-radius: 30px;
+  }
 }
 
 .box2 {
@@ -36,6 +70,19 @@ body {
 
   background: #fbbb5c;
   border-radius: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .box2 {
+    position: absolute;
+    width: 305px;
+    height: 588px;
+    left: 18px;
+    top: 50px;
+
+    background: #fbbb5c;
+    border-radius: 30px;
+  }
 }
 
 .Intro {
@@ -54,6 +101,24 @@ body {
 
   color: #036189;
 }
+@media only screen and (max-width: 400px) {
+  .Intro {
+    position: absolute;
+    width: 312px;
+    height: 57px;
+    left: -2px;
+    top: -2px;
+
+    font-family: Single Day;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #036189;
+  }
+}
 
 .github {
   position: absolute;
@@ -64,6 +129,15 @@ body {
   font-size: 50px;
   color: #036189;
   text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+  .github {
+    position: absolute;
+    width: 69px;
+    height: 67px;
+    left: 22px;
+    top: 483px;
+  }
 }
 
 .linkedin {
@@ -77,6 +151,16 @@ body {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .linkedin {
+    position: absolute;
+    width: 69px;
+    height: 67px;
+    left: 93px;
+    top: 483px;
+  }
+}
+
 .resume {
   position: absolute;
   width: 100px;
@@ -86,6 +170,16 @@ body {
   font-size: 50px;
   color: #036189;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .resume {
+    position: absolute;
+    width: 69px;
+    height: 67px;
+    left: 170px;
+    top: 483px;
+  }
 }
 
 .twitter {
@@ -98,6 +192,17 @@ body {
   color: #036189;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 400px) {
+  .twitter {
+    position: absolute;
+    width: 69px;
+    height: 67px;
+    left: 233px;
+    top: 483px;
+  }
+}
+
 /* .fab {
   position: absolute;
   width: 100px;
@@ -137,37 +242,8 @@ h1 {
   color: #036189;
 }
 
-/* @keyframes flow {
-  from {
-    color: rgba(0, 204, 255, 0.452);
+@media only screen and (max-width: 400px) {
+  h1 {
+    display: none;
   }
-  to {
-    color: rgba(111, 0, 255, 0.336);
-  }
-} */
-
-/* .anuva {
-  float: left;
-  margin-left: 30%;
 }
-
-.link {
-  padding: 2rem;
-  text-decoration: none;
-}
-
-.image {
-  padding: 2rem;
-
-  border-radius: 30px;
-}
-@media screen and (max-width: 600px) {
-  .anuva {
-    margin-left: 20px;
-    background-color: none;
-  }
-  .link {
-    padding: 0.5rem;
-    margin-left: auto;
-  }
-} */
